@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketPro - Plataforma Completa de Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#home">Ingressos NaJu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recursos">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#suporte">Suporte</a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <div class="hero-badge mb-4">
+                        <i class="fas fa-ticket-alt me-2"></i>
+                        Plataforma Completa de Eventos
+                    </div>
+                    <h1 class="hero-title mb-4">
+                        Venda de Ingressos<br>
+                        <span class="text-warning">Reimaginada</span>
+                    </h1>
+                    <p class="hero-subtitle mb-5">
+                        A solução completa para venda de ingressos, personalização de evento e check-in inteligente. Controle personalizado e eficiente do seu evento.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#recursos" class="btn btn-warning btn-lg me-3 px-4 py-3">Começar Agora</a>
+                        <a href="#sobre" class="btn btn-outline-light btn-lg px-4 py-3">Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title mb-4">Tudo que você precisa em uma plataforma</h2>
+                    <p class="section-subtitle">Desde a venda até o controle de acesso, oferecemos uma solução completa para seus eventos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos Section -->
+    <section id="recursos" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Venda de Ingressos -->
+                <div class="col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-primary">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Venda de Ingressos</h3>
+                        <p class="feature-description">Sistema intuitivo e seguro para venda online</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check text-success me-2"></i>Pagamentos seguros</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Múltiplas formas de pagamento</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Ingressos personalizáveis</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Relatórios em tempo real</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Gestão de Segurança -->
+                <div class="col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-danger">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Gestão de Segurança</h3>
+                        <p class="feature-description">Controle total da segurança do seu evento</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check text-success me-2"></i>Monitoramento em tempo real</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Controle de capacidade</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Alertas automáticos</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Dashboard de segurança</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- App Admin -->
+                <div class="col-lg-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon bg-success">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="feature-title">App Admin</h3>
+                        <p class="feature-description">Check-in inteligente e gestão móvel</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check text-success me-2"></i>Check-in por QR Code</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Validação offline</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Múltiplos dispositivos</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Sincronização automática</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item">
+                        <h2 class="stat-number">800+</h2>
+                        <p class="stat-label">Ingressos Vendidos</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item">
+                        <h2 class="stat-number">3+</h2>
+                        <p class="stat-label">Eventos Realizados</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item">
+                        <h2 class="stat-number">99.9%</h2>
+                        <p class="stat-label">Uptime Garantido</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-item">
+                        <h2 class="stat-number">24/7</h2>
+                        <p class="stat-label">Suporte Técnico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section 
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title mb-4">Tecnologia de Ponta</h2>
+                    <p class="section-subtitle">Utilizamos as mais avançadas tecnologias para garantir segurança, velocidade e confiabilidade</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card text-center">
+                        <div class="tech-icon bg-primary">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h4 class="tech-title">Segurança SSL</h4>
+                        <p class="tech-description">Criptografia de ponta a ponta</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card text-center">
+                        <div class="tech-icon bg-warning">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4 class="tech-title">Alta Performance</h4>
+                        <p class="tech-description">Processamento ultrarápido</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card text-center">
+                        <div class="tech-icon bg-success">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h4 class="tech-title">Analytics</h4>
+                        <p class="tech-description">Relatórios detalhados</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card text-center">
+                        <div class="tech-icon bg-info">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="tech-title">Escalabilidade</h4>
+                        <p class="tech-description">Suporta milhares de usuários</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Preços Section -->
+    <section id="precos" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8">
+                    <h2 class="section-title mb-4">Planos e Preços</h2>
+                    <p class="section-subtitle">Escolha o plano ideal para o seu evento</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Evento Geral</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">10</span>
+                            <span class="price-period">% por ingresso</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Sem limite de vendas</li>
+                            <li>Suporte por WhatsApp</li>
+                            <li>App de check-in</li>
+                            <li>Múltiplas sessões</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Escolher Plano</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Mais Popular</div>
+                        <h3 class="pricing-title">Marcação de Poltrona</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">15</span>
+                            <span class="price-period">% por ingresso</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Sem limite de vendas</li>
+                            <li>Suporte por WhatsApp</li>
+                            <li>App de check-in</li>
+                            <li>Múltiplas sessões</li>
+                        </ul>
+                        <button class="btn btn-primary w-100">Escolher Plano</button>
+                    </div>
+                </div>
+                <!--<div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="price-currency">R$</span>
+                            <span class="price-amount">999</span>
+                            <span class="price-period">/mês</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Ingressos ilimitados</li>
+                            <li>Suporte 24/7</li>
+                            <li>API personalizada</li>
+                            <li>White label</li>
+                            <li>Gerente dedicado</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Falar com Vendas</button>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title mb-4">Pronto para gestão completa do seu evento?</h2>
+                    <p class="cta-subtitle mb-5">Junte-se a organizadores que já transformaram seus eventos com nossa plataforma</p>
+                    <div class="cta-buttons">
+                        <!--<a href="#" class="btn btn-outline-light btn-lg me-3 px-4 py-3">Começar Teste Grátis</a>-->
+                        <a href="#contato" class="btn btn-light btn-lg px-4 py-3">Falar com Especialista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="section-title mb-4">Entre em Contato</h2>
+                        <p class="section-subtitle">Estamos aqui para ajudar você a criar eventos incríveis</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <h4>Informações de Contato</h4>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope me-3"></i>
+                                    <span>contato@ingressosnaju.com.br</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone me-3"></i>
+                                    <span>(73) 9943-5704</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt me-3"></i>
+                                    <span>Espírito Santo - Brasil</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="contact-form">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Seu nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Seu email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="4" placeholder="Sua mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Suporte Section 
+    <section id="suporte" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title mb-4">Central de Suporte</h2>
+                    <p class="section-subtitle mb-5">Nossa equipe está sempre pronta para ajudar você</p>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="support-card">
+                                <i class="fas fa-book support-icon"></i>
+                                <h4>Documentação</h4>
+                                <p>Guias completos e tutoriais</p>
+                                <a href="#" class="btn btn-outline-primary">Acessar</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="support-card">
+                                <i class="fas fa-comments support-icon"></i>
+                                <h4>Chat Online</h4>
+                                <p>Suporte em tempo real</p>
+                                <a href="#" class="btn btn-outline-primary">Iniciar Chat</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="support-card">
+                                <i class="fas fa-video support-icon"></i>
+                                <h4>Treinamento</h4>
+                                <p>Sessões personalizadas</p>
+                                <a href="#" class="btn btn-outline-primary">Agendar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Footer -->
+    <footer class="footer-section py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <h3 class="footer-brand mb-3">Ingressos NaJu</h3>
+                    <p class="footer-description mb-4">A plataforma completa para seus eventos</p>
+                    <div class="footer-links mb-4">
+                        <a href="#sobre" class="footer-link">Sobre</a>
+                        <a href="#recursos" class="footer-link">Recursos</a>
+                        <a href="#precos" class="footer-link">Preços</a>
+                        <a href="#contato" class="footer-link">Contato</a>
+                        <!--<a href="#suporte" class="footer-link">Suporte</a>-->
+                    </div>
+                    <p class="footer-copyright">© 2024 Ingressos NaJu. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
